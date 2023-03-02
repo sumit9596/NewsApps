@@ -1,0 +1,47 @@
+.spin {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 200px;
+  margin-top: 40px;
+  padding: 30px 50px;
+  text-align: center;
+  /* border-radius: 4px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-footer {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Date {
+
+  padding: 2px 2px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+
+.badges {
+  z-index: 5;
+  margin-right: 100px;
+}
+
+
+
+
+
+@media screen and (max-width: 360px),
+(max-width: 376px),
+(max-width: 415px) {
+
+  .badges {
+    margin-right: 2px;
+  }
+
+
+}
